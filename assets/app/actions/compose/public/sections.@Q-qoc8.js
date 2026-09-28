@@ -1,0 +1,1 @@
+export function nextSectionName(e){let t=e.match(/^(.*?)(\d+)$/);if(!t)return e===``?``:`${e} 2`;let[,n,r]=t;return`${n}${Number(r)+1}`}
